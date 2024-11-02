@@ -71,23 +71,3 @@ Copy code
 ./gradlew test
 The tests are written using JUnit 5 and follow test-driven development principles. They cover various pricing scenarios, such as single units, full cartons, multiple cartons with discounts, and cartons plus extra units.
 
-Sample Data
-The following products are pre-configured in the application:
-
-Product	Units per Carton	Carton Price	Single Unit Price
-Penguin-ears	20	175.0	11.38
-Horseshoe	5	825.0	214.5
-Project Structure
-plaintext
-Copy code
-price-calculator/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/pricecalculator/    # Backend application
-│   │   ├── resources/                           # Application properties and H2 database config
-│   └── test/                                    # Test classes
-├── src/components/                              # React components
-├── build.gradle                                 # Gradle build file
-└── README.md                                    # Project readme file
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
